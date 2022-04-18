@@ -78,7 +78,6 @@ public class practice_03 {
         myArray3[2] = "World";
         System.out.println(myArray3[0] + myArray3[1] + myArray3[2]);
 
-
     }
 }
 
