@@ -5,6 +5,10 @@ public class Main {
 
 //      1. 변수 사용하기
         System.out.println("== 변수 사용하기 ==");
+        int age = 10;
+        System.out.println(age);
+        String country = "Korea";
+        System.out.println(country);
 
 
 //      2. 변수 이름 규칙
