@@ -1,6 +1,6 @@
 // Java 프로그래밍 - 변수와 자료형_1
 
-public class practice_0418 {
+public class practice_01 {
     public static void main(String[] args) {
 
 //      1. 변수 사용하기
