@@ -73,22 +73,52 @@ public class practice_04 {
 
 
 //      2-1. put
+        map.put("kiwi", 9000);
+        map.put("apple", 10000);
+        map.put("mango", 12000);
+        System.out.println("map = " + map);
 
 
 //      2-2. get
+        System.out.println(map.get("mandarin"));
+        System.out.println(map.get("kiwi"));
 
 
 //      2-3. size
+        System.out.println(map.size());
+
 
 //      2-4. remove
+        System.out.println(map.remove("kiwi"));
+        System.out.println(map.remove("mandarin"));
+        System.out.println("map = " + map);
 
 
 //      2-5. containsKey
-
+        System.out.println(map.containsKey("apple"));
+        System.out.println(map.containsKey("kiwi"));
 
 
 //      3. Generics
         System.out.println("== Generics ==");
+        ArrayList l3 = new ArrayList();
+        l3.add(1);
+        System.out.println("l3 = " + l3);
+
+        ArrayList<String> l4 = new ArrayList<String>();
+        l4.add("hello");
+        System.out.println("l4 = " + l4);
+
+        HashMap map1 = new HashMap();
+        //l4.add(1);
+        map1.put(123, "id");
+        map1.put("appple", 10000);
+        System.out.println("map1 = " + map1);
+
+        HashMap<String, Integer> map2 = new HashMap<>();
+        //map2.put(123, "id");
+        map2.put("apple", 10000);
+        System.out.println("map2 = " + map2);
 
 
     }
