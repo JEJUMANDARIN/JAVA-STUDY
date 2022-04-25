@@ -120,9 +120,6 @@ public class practice_04 {
         map2.put("apple", 10000);
         System.out.println("map2 = " + map2);
 
-
     }
 
 }
-
-
