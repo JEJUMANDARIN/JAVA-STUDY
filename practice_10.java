@@ -1,5 +1,6 @@
 // Java 프로그래밍 - 클래스와 객체_1
 
+
 class Car {
     String name;
     String type;

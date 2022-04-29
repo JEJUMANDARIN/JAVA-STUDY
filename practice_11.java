@@ -4,6 +4,7 @@
 //  특성: 이름, 무게, 분류
 //  기능: 먹기, 잠자기, 걷기, 뛰기
 
+
 class Animal {
     String name;
     Double weight;
