@@ -1,7 +1,7 @@
 // Java 프로그래밍 - 클래스와 객체_1
 
 
-class Car {
+class Cars {
     String name;
     String type;
 
@@ -48,7 +48,7 @@ class Car2 {
 
 public class practice_10 {
     public static void main(String[] args) {
-        Car myCar1 = new Car();
+        Cars myCar1 = new Cars();
         myCar1.name = "a";
         myCar1.type = "suv";
         myCar1.printCarInfo();
